@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*Css para configurar a base de todas as páginas, exceto a página inicial
+ *                                                                Arquivos: excluir.php | listar.php | buscar.php
+ */
+
+/*Dimensões*/
+/*Barra do Menu*/
+.menu{
+    width: 6%;
+}
+.option{
+    width: inherit;
+    padding: 10%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    font-size: 80%;
+}
+.logo{
+    width: 105%;
+    min-width: 40px;
+}
+.icon{
+    width: 85%;
+    min-width: 40px;
+}
+/*Conteúdo da Página*/
+.conteudo{
+    width: auto;
+    height: auto;
+    font-size: 120%;
+}
+form{
+    width: 800px;
+}
+fieldset{
+    padding: 3%;
+}
+/*Botões*/
+.botoes{
+    width: 12%;
+    padding: 0.2%;
+    font-size: 82%;
+}
+
+/*Posicionamento*/
+body{
+    display: flex;
+}
+/*Barrra do Menu*/
+.menu{
+    left: 0;
+}
+.option{
+    text-align: center;
+}
+.icon{
+    margin-bottom: 1.5%;
+}
+/*Conteúdo da Página*/
+.conteudo{
+    margin: 1.5%;
+}
+fieldset{
+    margin-bottom: 6%;
+}
+
+/*Visual*/
+/*Barra do Menu*/
+.menu{
+    border: 1px solid black;
+    background-color: #d19136;
+}
+.option{
+    background-color: #d19136;
+    border-bottom: 1px solid black;
+    transition: 0.5s;
+}
+.option:hover{
+    background-color: #ad6e14;
+}
+/*Conteúdo da Página*/
+fieldset{
+    border: none;
+    border-bottom: 1px solid gray;
+}
