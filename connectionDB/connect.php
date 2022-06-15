@@ -2,10 +2,10 @@
     class Connect extends PDO{
         private static $instance;
         private $query;
-        private $host = "127.0.0.1";
-        private $user = "root";
-        private $pass = "";
-        private $db = "db_petshop";
+        private $host = "remotemysql.com";
+        private $user = "rjOpq4jjWk";
+        private $pass = "nSDFn3o7M5";
+        private $db = "rjOpq4jjWk";
 
         public function __construct(){
             parent::__construct("mysql:host=$this->host; dbname=$this->db", "$this->user", "$this->pass");
