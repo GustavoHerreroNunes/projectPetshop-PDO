@@ -1,6 +1,6 @@
 <script language="javascript" src="./../scripts/menuImage.js"></script>
 <div class="menu">
-    <a href="./menu.html">
+    <a href="../menu.html">
         <div class="option">
             <img src="./../assets/img/logo/logo-com_fonte.png" class="logo" />
         </div>
